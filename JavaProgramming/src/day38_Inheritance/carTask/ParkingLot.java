@@ -9,6 +9,9 @@ public class ParkingLot {
         BMW BMW=new BMW("r6","Black",2020,70000,2000);
         System.out.println(toyota);
         toyota.reliable();
+        toyota.start();
         tesla.autoPilot();
+        tesla.start();
+        BMW.start();
     }
 }

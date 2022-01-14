@@ -10,7 +10,10 @@ public class Toyota extends Car{
     public void reliable(){
         System.out.println(brand+" "+model+" is reliable");
     }
-
+@Override //that's optional to check if the method is over ride or not
+     void start(){ // we can use the same access modifier as the parent class when we overwrite it or more visible one
+        System.out.println("push the key button "+brand+" "+model);
+    }
 
 
 }
