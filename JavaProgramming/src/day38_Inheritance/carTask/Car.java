@@ -14,6 +14,19 @@ public class Car {
         this.miles = miles;
     }
 
+    public void start(){
+        System.out.println(brand+" "+model+" is starting");
+    }
+
+    public void drive(){
+        System.out.println(brand+" "+model+" is driving");
+
+    }
+   /* fly is not common for all the cars, and parent class should only contain common features for all the cars
+    public void fly(){
+
+    }
+     */
 
 
     public String toString() {
