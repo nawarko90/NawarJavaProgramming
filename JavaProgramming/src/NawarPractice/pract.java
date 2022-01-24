@@ -4,17 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class pract {
-    public static void main(String[] args) {
-        ArrayList<String> list= new ArrayList<>(Arrays.asList("kiwi","apple","banana"));
-        list.add("Strawberry");
 
-        System.out.println(list);
-
-        ArrayList<String> list2= new ArrayList<String>();
-        System.out.println(list.removeAll(Arrays.asList("apple","banana")));
-
-
-    }
 }
 
 // creating an ArrayList object
